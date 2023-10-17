@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.AssemblyInfo.cs
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\bin\Debug\net6.0\Final_Task.exe
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\bin\Debug\net6.0\Final_Task.deps.json
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\bin\Debug\net6.0\Final_Task.runtimeconfig.json
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\bin\Debug\net6.0\Final_Task.dll
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\bin\Debug\net6.0\Final_Task.pdb
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.dll
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\refint\Final_Task.dll
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.pdb
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\Final_Task.genruntimeconfig.cache
+C:\Users\User\Desktop\итоговая аттестация\Task1\Final_Task\obj\Debug\net6.0\ref\Final_Task.dll

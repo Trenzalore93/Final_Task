@@ -3,12 +3,13 @@
 // При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
+using System.Globalization;
 using System.Threading.Channels;
 
 string[] GetStringArray()
 {
     Console.Write("Введите количество элементов массива:\t");
-    int count = int.Parse(Console.ReadLine());
+    int count = int.Parse(Console.ReadLine() ?? "0");
     string[] array = new string[count];
     for (int i = 0; i < array.Length; i++)
     {
@@ -19,7 +20,7 @@ string[] GetStringArray()
     PrintArray(array);
     return array;
 }
-void PrintArray(string[] array) // выводим массив
+void PrintArray(string[] array) 
 {
     Console.Write("[");
     for (int i = 0; i < array.Length - 1; i++)
@@ -30,23 +31,26 @@ void PrintArray(string[] array) // выводим массив
     Console.WriteLine("");
 }
 
-string[] CheckChar(string[] array)
+string[] CheckChar(string[] array, int number)
 {
     string[] newArray = new string[10];
-    for (int i = 0; i < array.Length; i++)
+    int i = 0;
+    for (int j = 0; j < newArray.Length & i < array.Length; j++)
     {
-        char[] chars = array[i].ToCharArray();
-        if (chars.Length <= 3)
+        if (array[i].Length > number) 
         {
-            for (int j = 0; j < newArray.Length; j++)
-            {
-                newArray[j] = array[i];
-            }
+            i++;
         }
+        else
+        {
+            newArray[j] = array[i];
+            i++;
+        }
+
     }
+    newArray = newArray.Where(x => x != null).ToArray();
     return newArray;
 }
-
 string[] str = GetStringArray();
-string[] result = CheckChar(str);
+string[] result = CheckChar(str, 3);
 PrintArray(result);
